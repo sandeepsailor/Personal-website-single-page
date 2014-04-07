@@ -1,0 +1,31 @@
+html {
+
+  body {
+    background: url('/assets/images/background.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    h1 {
+      color: white;
+      font-size: 70px;
+      font-weight: 100;
+
+      span { display: block; }
+    }
+
+    h2 {
+      display: inline-block;
+      color: white;
+      font-size: 30px;
+      font-weight: 100;
+
+      margin-top: 50px;
+
+      padding:5px 15px 5px 15px;
+
+      background-color: rgba(0,0,0,0.5)
+    }
+  }
+}
